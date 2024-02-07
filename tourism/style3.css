@@ -1,0 +1,67 @@
+.cont{
+    
+    height:200px;
+    width:800px;
+    background: red;
+    transform: translate(-50%,-50%);
+    border: 1px solid whitesmoke;
+
+}
+.navigator{
+    display: flex;
+    position: absolute;
+    left:50%;
+    bottom:20px;
+    transform: translate(-50%);
+
+}
+.navigator .bar{
+    height:5px;
+    width:45px;
+    background: wheat;
+    cursor: pointer;
+    border:2px solid black;
+    margin-left:8px;
+    box-shadow:2px 2px 6px white,-2px -2px 6px white;
+
+}
+.navigator .bar:hover{
+    background: white;
+}
+input[type="radio"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    display:flex;
+    height:100%;
+    width:500%;
+}
+.image{
+    width: 20%;
+    transition: 0.4s ease;
+
+
+}
+.img{
+    width: 100%;
+    height:200%;
+}
+
+#r1:checked ~.first{
+    margin-left: 0;
+}
+#r2:checked ~.second{
+    margin-left: -20%;
+}
+#r3:checked ~.third{
+    margin-left: -40%;
+}
+#r4:checked ~.fourth{
+    margin-left: -60%;
+}
+#r5:checked ~.fifth{
+    margin-left: -80%;
+}
+
+

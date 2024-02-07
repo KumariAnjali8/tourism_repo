@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        .navbar{
+            background-color: black;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:right;
+            list-style: none;
+            color:red;
+            padding :3px;
+        }
+        .dropdown{
+            width: fit-content;
+
+        }
+        .dropdown_item{
+            background-color: blue;
+            padding:10px;
+            position: absolute;
+            width: fit-content;
+            display:none;
+        }
+        .item{
+            padding:10px;
+        }
+        .dropdown:hover .dropdown_item{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>contact us</li>
+                <li>about</li>
+                <div class="dropdown">
+                <li>places</li>
+                <div class="dropdown_item">
+                <div class="item">kolkata</div>
+                <div class="item">kolkata</div>
+                <div class="item">kolkata</div><div class="item">kolkata</div><div class="item">kolkata</div><div class="item">kolkata</div><div class="item">kolkata</div>
+            </div>
+        </div>
+                <li>home</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
