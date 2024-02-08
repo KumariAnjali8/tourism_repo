@@ -1,0 +1,71 @@
+.att ul {
+  display: flex;
+  flex-direction: row;
+   white-space: nowrap;
+   
+  }
+  
+  .att ul li {
+    list-style: none;
+    display: flex;
+    justify-content:stretch;
+  }
+  .att a{
+    color:white;
+    text-decoration: none;
+    justify-content: space-evenly;
+  }
+  
+  
+  .att li img{
+    height: 170px;
+    width: 150px;
+    border-radius:30% ;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+  }
+  h4{
+   width:20;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .container{
+    margin-right: 30px;
+    border:2px;
+    height:250px;
+    width:200px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .tou li{
+    font-size: 20px;
+    color: white;
+  }
+  .tou li a{
+    color: beige;
+  }
+  
+  .backgroundk{
+    background:rgba(0, 0, 0, 0.7)url('../img/alan-Rw1mRIaujQY-unsplash.jpg');
+    background-size:cover;
+    background-blend-mode: darken;
+  }
+  .backgroundd{
+    background:rgba(0, 0, 0, 0.7)url('../img/laurentiu-morariu-8XZTZIfuNrM-unsplash.jpg');
+    background-size:cover;
+    background-blend-mode: darken;
+  }
+  .backgroundm{
+    background:rgba(0, 0, 0, 0.7)url('../img/previn-samuel-vr6nMSlyTJs-unsplash.jpg');
+    background-size:cover;
+    background-blend-mode: darken;
+  }
+  .backgroundc{
+    background:rgba(0, 0, 0, 0.7)url('../img/siby-QXIBCvvA_jc-unsplash.jpg');
+    background-size:cover;
+    background-blend-mode: darken;
+  }
+  
